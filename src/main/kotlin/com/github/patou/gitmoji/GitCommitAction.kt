@@ -43,7 +43,7 @@ class GitCommitAction : AnAction() {
 
     init {
         isEnabledInModalContext = true
-        loadGitmojiFromHTTP()
+        loadDefaultGitmoji()
     }
 
     private val regexPattern = ":[a-z0-9_]+:"
